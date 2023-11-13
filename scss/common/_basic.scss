@@ -1,0 +1,15 @@
+body{
+    font-family: Jost;
+}
+
+.container {
+    max-width: 460px;
+    margin: 0 auto;
+    padding: 0 15px;
+    @media (min-width: 768px){
+    max-width: 730px;}
+    @media (min-width: 1290px){
+    max-width: 1260px;}
+}
+.logo {
+}
